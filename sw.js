@@ -1,5 +1,5 @@
 // Offline support for the installed web app (PWA): network first, cached copy when offline.
-const CACHE = 'budget-quest-v1';
+const CACHE = 'budget-quest-v2';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
